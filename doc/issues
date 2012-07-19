@@ -1,0 +1,3 @@
+-id3_server.c, id3_file.c:  seg fault upon call to getTags
+     -Failed to either access linked-list or assign to .buf.
+   issue was due to fclose on filename instead of file-pointer.

@@ -1,0 +1,69 @@
+2.9.1
+------
+
+-Defined offset in getTags as ID3_SIZE
+-id3_client now takes two parameters to select fields
+
+
+2.9.0
+------
+-absorb dirwalk into id3_file.c
+
+
+2.8
+----
+
+-increased BUFF_SIZE to 8192
+-fixed fclose on filename to close on filepointer
+
+
+2.7
+----
+
+Implemented Directory Recursion (dirwalk and fsize);
+
+defined BUFF_SIZE
+
+
+
+2.6
+----
+
+-Assigned recordCount to 1st Byte of 1st Record.
+
+Binding Variables:
+
+char *filename      // The filename of an mp3       
+char *dirPath       // The directory path to a directory tha contains mp3s.
+char *filePath      // The path to an mp3
+GList *filelist     // List of mp3s that are scanned
+id3String *tagBuff  // The id3 Tags
+
+
+rename checkFilename to isMp3
+-change function name in getID3.h
+-change function name in id3_file.c
+-change function call in getFileList( char *) in id3_file.c
+
+- get dirpath as argument in id3_server.c
+
+-FullPath
+  -should be in id3_data.c
+
+return codes:
+
+copyTags
+getFileList
+
+
+3.0
+-----
+
+mcast_sender.c - datagram support to transport data over UDP.
+
+
+3.1
+-----
+
+-Objects and Source are renamed to achieve a better naming convention
+-True multicast capability 
