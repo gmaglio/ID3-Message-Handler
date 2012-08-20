@@ -14,7 +14,6 @@ Definition of ID3 structure and message
 #include <sys/shm.h>
 #include <dirent.h>
 #include <glib.h>
-#include <glib/glist.h>
 
 #define EXTENSION ".mp3"
 #define PATH "/home/gmaglio"

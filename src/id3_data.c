@@ -13,7 +13,6 @@ Desc: module to handle transversale of allocated buffer of type id3Buff
 #include <sys/shm.h>
 #include <dirent.h>
 #include <glib.h>
-#include <glib/glist.h>
 #include "../headers/id3shm.h"
 
 void printTags( id3Buff tagBuff ) {

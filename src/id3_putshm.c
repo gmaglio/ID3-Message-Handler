@@ -12,7 +12,6 @@ Desc: Retrieve id3 info from files withing specified directory tree.  Copy id3 i
 #include <sys/shm.h>
 #include <dirent.h>
 #include <glib.h>
-#include <glib/glist.h>
 #include "../headers/id3shm.h"
 
 

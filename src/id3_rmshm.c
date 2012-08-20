@@ -13,7 +13,6 @@ Desc: Remove IPC element.
 #include <sys/shm.h>
 #include <dirent.h>
 #include <glib.h>
-#include <glib/glist.h>
 #include "../headers/id3shm.h"
    
 int main() {
